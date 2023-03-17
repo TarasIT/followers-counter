@@ -1,0 +1,40 @@
+.statisticsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ebd8ff;
+}
+
+.tweets {
+  margin-bottom: 16px;
+}
+
+.followers {
+  margin-bottom: 26px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 196px;
+  height: 50px;
+  border: none;
+  border-radius: 10.3108px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #373737;
+}
