@@ -14,6 +14,7 @@ export const TweetsList = ({ tweets }) => {
       });
     return getSubscribe(KEY);
   });
+  const bgColorActive = '#5CD3A8';
 
   useEffect(() => {
     saveSubscribe(KEY, tweetsInfo);
@@ -53,7 +54,7 @@ export const TweetsList = ({ tweets }) => {
               <button
                 type="button"
                 onClick={() => onBtnClick(id)}
-                style={{ backgroundColor: isFollowed && '#5CD3A8' }}
+                style={{ backgroundColor: isFollowed && bgColorActive }}
                 className={css.btn}
               >
                 {isFollowed ? 'FOLLOWING' : 'FOLLOW'}
