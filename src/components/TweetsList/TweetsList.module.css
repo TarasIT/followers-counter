@@ -1,0 +1,108 @@
+.tweetsList {
+  display: flex;
+}
+
+.tweet {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 460px;
+  width: 380px;
+  border-radius: 20px;
+  background-image: url('../../images/goit-logo.svg'),
+    url('../../images/bg-image.png'),
+    linear-gradient(
+      114.99deg,
+      #471ca9 -0.99%,
+      var(--bg-color) 54.28%,
+      #4b2a99 78.99%
+    );
+  background-size: 76px 22px, 308px 168px, cover;
+  background-position: 20px 20px, 50% 36px, center;
+  background-repeat: no-repeat;
+  box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+  font-family: 'Montserrat';
+}
+
+.tweet::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  display: block;
+  width: 100%;
+  height: 8px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.tweet:not(:last-child) {
+  margin-right: 20px;
+}
+
+.statisticsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ebd8ff;
+}
+
+.tweets {
+  margin-bottom: 16px;
+}
+
+.avatarBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
+}
+
+.avatar {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+}
+
+.followers {
+  margin-bottom: 26px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 196px;
+  height: 50px;
+  border: none;
+  border-radius: 10.3108px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #373737;
+}

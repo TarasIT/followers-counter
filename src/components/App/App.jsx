@@ -1,14 +1,11 @@
-import { Statistics } from 'components/Statistics/Statistics';
-import { User } from 'components/User/User';
+import { TweetsList } from 'components/TweetsList/TweetsList';
 import css from './App.module.css';
+import tweets from '../../db/tweets.json';
 
 export const App = () => {
   return (
     <section className={css.section}>
-      <div className={css.container}>
-        <User />
-        <Statistics />
-      </div>
+      <TweetsList tweets={tweets} />
     </section>
   );
 };

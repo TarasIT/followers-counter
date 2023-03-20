@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "user": "Alan",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "avatar.png"
+  },
+  {
+    "id": 2,
+    "user": "Bob",
+    "tweets": 158,
+    "followers": 70800,
+    "avatar": "avatar.png"
+  },
+  {
+    "id": 3,
+    "user": "Dilan",
+    "tweets": 97,
+    "followers": 1300,
+    "avatar": "avatar.png"
+  }
+]
