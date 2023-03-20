@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/followers-counter/static/css/main.ad5ab606.css",
-    "main.js": "/followers-counter/static/js/main.1be047f4.js",
+    "main.css": "/followers-counter/static/css/main.63de747d.css",
+    "main.js": "/followers-counter/static/js/main.c1adce15.js",
+    "static/media/ellipse.png": "/followers-counter/static/media/ellipse.8ec8bffa2abeb1d0126f.png",
     "static/media/avatar.png": "/followers-counter/static/media/avatar.733ff4916fb091c5d0ad.png",
     "static/media/goit-logo.svg": "/followers-counter/static/media/goit-logo.7e99eb87d0b4bfd616f3.svg",
     "index.html": "/followers-counter/index.html",
-    "main.ad5ab606.css.map": "/followers-counter/static/css/main.ad5ab606.css.map",
-    "main.1be047f4.js.map": "/followers-counter/static/js/main.1be047f4.js.map"
+    "main.63de747d.css.map": "/followers-counter/static/css/main.63de747d.css.map",
+    "main.c1adce15.js.map": "/followers-counter/static/js/main.c1adce15.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5ab606.css",
-    "static/js/main.1be047f4.js"
+    "static/css/main.63de747d.css",
+    "static/js/main.c1adce15.js"
   ]
 }
