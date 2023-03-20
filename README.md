@@ -1,3 +1,3 @@
 FOLLOWERS COUNTER
 
-In this cards you can subscribe and unsubscribe with your choice saving
+In these cards you can subscribe and unsubscribe with your choice saving
